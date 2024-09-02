@@ -54,3 +54,19 @@ Enhanced Payment Gateway Integration: Adding support for more payment methods.
 Notification System: SMS notifications along with email.
 
 Recommendation Engine: Suggest movies based on user preferences.
+## Note
+
+Before Run The Code Set Up Environment Variables
+
+Open Environment Variables Window:
+
+Open the Start Search, type in "env", and select "Edit the system environment variables".
+In the System Properties window, click the "Environment Variables…" button.
+Add New Environment Variables:
+
+Under "System variables", click "New…" to add a new variable.
+Enter GMAIL_USERNAME for the variable name and your Gmail address (e.g., your_email@gmail.com) for the variable value.
+Repeat the above step to add GMAIL_APP_PASSWORD with your app password as the value.
+Verify:
+
+Open a new command prompt and type echo %GMAIL_USERNAME% and echo %GMAIL_APP_PASSWORD% to verify that the environment variables are set correctly.
